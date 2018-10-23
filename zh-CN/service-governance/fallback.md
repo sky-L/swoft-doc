@@ -73,7 +73,7 @@ class DemoServiceFallback implements DemoInterface
 }
 ```
 
-- 需要使用注解定义defer函数，此处不做详细描述，请查看RPC客户单章节
+- 需要使用注解定义defer函数，此处不做详细描述，请查看RPC客户端章节
 - DemoInterface 是RPC章节的lib接口，每个接口可以实现多个不用的降级服务
 - RPC服务调用失败后，就会调用实现的服务降级里面函数
 
